@@ -1,0 +1,251 @@
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    min-width: 100;
+    line-height: 1.5;
+
+}
+body{
+    display: flex;
+    background-color: #E5E5E5;
+    flex-direction: column;
+    font-family: 'Open Sans', sans-serif;
+}
+
+header{
+    display: flex;
+    justify-content: center;
+    background-color: #FFFFFF;
+    box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.12);
+}
+
+.cabecalho{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    max-width: 1160px;
+    color: #545454;
+}
+.cabecalho li{
+    list-style-type: none;
+
+}
+
+.cabecalho a{
+    text-decoration: none;
+    color: #545454;
+}
+.links{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 48px;
+}
+
+.links li:last-child{
+    margin-right: 20px;
+}
+
+.conteudo{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+
+}
+.container{
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    margin: 56px 140px 56px 140px;
+    column-gap: 50px;
+    align-items: flex-start;
+    max-width: 1160px;
+}
+
+main{
+    display: flex;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.12);
+    background-color: #FFFFFF;
+    flex-direction: column;
+    border-radius: 4px;
+    font-size: 14px;
+}
+
+.card{
+    display: flex;
+    flex-direction: column;
+    padding: 24px;
+    
+}
+.card .titulocard{
+    margin: 24px 0 14px 24px;
+
+}
+
+.titulocard p{
+    font-size: 12px;
+    line-height: 16px;
+    color: #929292;
+    padding-top: 8px;
+}
+.conteudoCard{
+    display: flex;
+    flex-direction: column;
+    padding: 24px;
+}
+
+.card a{
+    all: unset;
+    box-sizing: border-box;
+    cursor: pointer;
+    background: #FE0078;
+    border: 1px solid #FE0078;
+    border-radius: 20px;
+    padding: 12px 24px;
+    font-style: normal;
+    font-size: 14px;
+    text-align: center;
+    color: #FFFFFF;
+    margin: 32px 0 0 auto;
+
+}
+.informacoes{
+    margin-top: 32px;
+}
+.informacoes div{
+    display: flex;
+    margin-top: 26px;
+}
+.informacoes p{
+    margin-top: 14px;
+}
+.informacoes img{
+    margin-right: 8px;
+}
+.inputs div{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    margin: 24px auto 24px 0;
+
+} 
+
+.inputs div:first-child{
+    margin-right: 24px;
+}
+.inputs input{
+    background: #FFFFFF;
+    border: 1px solid #EEEEEE;
+    box-sizing: border-box;
+    border-radius: 2px;
+    width: 100%;
+    padding: 12px 0;
+}
+.contato{
+    display: flex;
+    flex-direction: column;
+    margin-top: 40px;
+
+}
+
+.coments .inputs{
+    display: flex;
+    justify-content: space-between;
+
+}
+.coments label{
+    display: block;
+    margin-bottom: 8px;
+}
+
+.coments input{
+    padding: 10px;
+
+}
+.coment textarea{
+    width: 100%;
+    border-radius: 2px;
+    border: 1px solid #EEEEEE;
+    padding: 10px;
+}
+
+.coment div{
+    margin-bottom: 24px;
+}
+.coment div input{
+    background: #FFFFFF;
+    border: 1px solid #EEEEEE;
+    box-sizing: border-box;
+    border-radius: 2px;
+    width: 100%;
+}
+
+
+.sidebar{
+    display: flex;
+    flex-direction: column;
+    max-width: 380px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.12);
+    background-color: #FFFFFF;
+    padding: 20px 20px 40px 20px;
+    border-radius: 4px;
+}
+
+.sidebar img{
+    width: 340px;
+    height: 240px;
+    margin-top: 32px;
+}
+
+.sidebar .pesquisa input{
+    border: 1px solid #EEEEEE;
+    box-sizing: border-box;
+    border-radius: 10px;
+    padding: 17px 218px 16px 20px;
+    max-width: 340px;
+    outline: none;
+}
+
+.pesquisa input:focus{
+    border: 1px solid #FE0078;
+}
+
+.categorias h2{
+    border-left: 3px solid #FE0078;
+    padding-left: 9px;
+}
+
+.categorias{
+    padding: 25px 0 40px 0;
+}
+.subcategorias{
+    margin-top: 24px;
+}
+.subcategorias div{
+    display: flex;
+    border-bottom: 2px dashed #EEEEEE;
+    justify-content: space-between;
+
+}
+.subcategorias a{
+    text-decoration: none;
+    color: #545454;
+    padding: 16px 0;
+
+
+}
+
+footer{
+    display: flex;
+    justify-content: center;
+    color: #FFFFFF;
+    background-color: #222222;
+    padding: 25px;
+}
+
+.tituloPublicidade h2{
+    border-left: 3px solid #FE0078;
+    padding-left: 9px;
+    margin-bottom: 9px;
+}
